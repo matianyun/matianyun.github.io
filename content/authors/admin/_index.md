@@ -35,7 +35,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:mty21[at]mail[dot]ustc[dot]edu[dot]cn'
+    url: 'mailto:mty21[at]mail[dot]ustc.edu.cn'
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/AlexAIResearch
@@ -54,16 +54,18 @@ interests:
   - Embodied AI
 
 education:
-  - area: PhD Computer Science (Computer Architecture)
+  - area: PhD Computer Science (Computer Architecture Focus)
     institution: SKLP lab, ICT, CAS & USTC
   #  icon: hero/ustc.jpg
     date_start: 2020-09-01
     date_end: 2025-11-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
+      Thesis on Architectures for Accelerating Transformer Inference. 
+
+      Supervised by Prof. Huaping Chen and Prof. Qi Guo.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com/thesis.pdf'
   # - area: MS Computer Science
   #   institution: Carnegie Mellon University
   #   icon: ""
@@ -83,23 +85,23 @@ education:
 
     #   Minored in Mathematics. President of AI Club.
 
-work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    icon: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+# work:
+#   - position: Senior AI Research Scientist
+#     company_name: Meta AI
+#     company_url: 'https://ai.meta.com/'
+#     icon: ''
+#     date_start: 2020-01-01
+#     date_end: ''
+#     summary: |2-
+#       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
+#   - position: AI Research Intern
+#     company_name: OpenAI
+#     company_url: 'https://openai.com/'
+#     icon: ''
+#     date_start: 2019-06-01
+#     date_end: 2019-12-31
+#     summary: |
+#       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -169,4 +171,5 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Tianyun Ma holds a Ph.D. in Computer Architecture, specializing in accelerating large-model inference architectures and exploring intelligent computing systems, and embodied intelligence. He earned his bachelor's degree from Tsinghua University's Department of Automation under **Professor Tao Zhang** and completed his Ph.D. at the State Key Laboratory of Processors (SKLP) through a joint program between USTC and ICT, CAS, under **Professors Huaping Chen and Qi Guo**. He has published 8 papers in top-tier venues such as TCAD, MICRO, and ASPLOS, with strong expertise in system architecture design. He is committed to advancing intelligent computing through innovative architecture designs.
+
