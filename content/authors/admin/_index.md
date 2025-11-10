@@ -56,7 +56,7 @@ interests:
 education:
   - area: PhD Computer Science (Computer Architecture Focus)
     institution: SKLP lab, ICT, CAS & USTC
-  #  icon: hero/ustc.jpg
+    icon: ustc
     date_start: 2020-09-01
     date_end: 2025-11-30
     summary: |
@@ -77,7 +77,7 @@ education:
   #     Specialized in machine learning and robotics.
   - area: BS Automation
     institution: Tsinghua University
-    icon: hero/tsinghua.png
+    icon: tsinghua
     date_start: 2016-09-01
     date_end: 2020-05-31
     # summary: |
@@ -85,23 +85,40 @@ education:
 
     #   Minored in Mathematics. President of AI Club.
 
-# work:
-#   - position: Senior AI Research Scientist
-#     company_name: Meta AI
-#     company_url: 'https://ai.meta.com/'
-#     icon: ''
-#     date_start: 2020-01-01
-#     date_end: ''
-#     summary: |2-
-#       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-#   - position: AI Research Intern
-#     company_name: OpenAI
-#     company_url: 'https://openai.com/'
-#     icon: ''
-#     date_start: 2019-06-01
-#     date_end: 2019-12-31
-#     summary: |
-#       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+work:
+- position: Verification Engineer Intern  
+  company_name: Cambricon Technologies
+  company_url: 'https://www.cambricon.com/'  
+  icon: ''  
+  date_start: 2022-02-01  
+  date_end: 2022-08-31  
+  summary: |
+    Responsible for the functional verification of MLU370 computing components and simulator development.  
+
+- position: Algorithm Research Intern  
+  company_name: UBTECH Robotics
+  company_url: 'https://www.ubtrobot.com/'  
+  icon: ''  
+  date_start: 2019-07-01  
+  date_end: 2019-09-30  
+  summary: |
+    Developed 3D-SLAM algorithms for LiDAR-based navigation in quadruped robots.  
+  # - position: Senior AI Research Scientist
+  #   company_name: Meta AI
+  #   company_url: 'https://ai.meta.com/'
+  #   icon: ''
+  #   date_start: 2020-01-01
+  #   date_end: ''
+  #   summary: |2-
+  #     Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
+  # - position: Algorithm Research Intern
+  #   company_name: OpenAI
+  #   company_url: 'https://openai.com/'
+  #   icon: ''
+  #   date_start: 2019-06-01
+  #   date_end: 2019-12-31
+  #   summary: |
+  #     Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -171,5 +188,5 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Tianyun Ma holds a Ph.D. in Computer Architecture, specializing in accelerating large-model inference architectures and exploring intelligent computing systems, and embodied intelligence. He earned his bachelor's degree from Tsinghua University's Department of Automation under **Professor Tao Zhang** and completed his Ph.D. at the State Key Laboratory of Processors (SKLP) through a joint program between USTC and ICT, CAS, under **Professors Huaping Chen and Qi Guo**. He has published 8 papers in top-tier venues such as TCAD, MICRO, and ASPLOS, with strong expertise in system architecture design. He is committed to advancing intelligent computing through innovative architecture designs.
+Tianyun Ma holds a Ph.D. in Computer Architecture, specializing in accelerating large-model inference architectures and exploring intelligent computing systems, and embodied intelligence. He earned his bachelor's degree from Tsinghua University's Department of Automation under **Professor Tao Zhang** at 2020, and completed his Ph.D. at the State Key Laboratory of Processors (SKLP) through a joint program between USTC and ICT, CAS, under **Professors Huaping Chen and Qi Guo** at 2025. He has published 8 papers in top-tier venues such as TCAD, MICRO, and ASPLOS, with strong expertise in system architecture design. He is committed to advancing intelligent computing through innovative architecture designs.
 
