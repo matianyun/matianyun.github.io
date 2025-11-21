@@ -30,6 +30,7 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
+    id: research
     content:
       title: '📚 My Research'
       subtitle: ''
@@ -46,6 +47,7 @@ sections:
     design:
       columns: '1'
   - block: resume-experience
+    id: experience
     content:
       title: "Experience"
     design:
