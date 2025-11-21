@@ -35,9 +35,13 @@ sections:
       subtitle: ''
       text: |-
         
-        I am dedicated to exploring efficient large-model inference from a full-stack perspective, spanning algorithms to hardware, with a focus on its applications in embodied intelligence and beyond. 
+        I am dedicated to exploring efficient large-model inference from a full-stack perspective, spanning algorithms to hardware, with a focus on its applications in embodied intelligence and beyond, including: 
+        - Efficient LLM Inference
+        - AI Hardware Architectures
+        - Algorithm-Hardware Co-design
+        - Embodied AI
+        
         I am eager to collaborate on innovative research that bridges theory and practice to push the boundaries of intelligent computing.
-
         Please reach out to collaborate 😃 (wechat: himarsmty)
     design:
       columns: '1'

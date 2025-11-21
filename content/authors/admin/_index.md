@@ -51,7 +51,7 @@ profiles:
 interests:
   - Efficient LLM Inference
   - AI Hardware Architectures
-  - In-storage Computing
+  - Algorithm-Hardware Co-design
   - Embodied AI
 
 education:
