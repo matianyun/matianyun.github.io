@@ -9,7 +9,7 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: resume-biography-3
+  - block: resume-biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -20,8 +20,8 @@ sections:
         url: uploads/cv_matianyun.pdf
       headings:
         about: ''
-        education: ''
-        interests: ''
+        # education: ''
+        # interests: ''
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
@@ -41,6 +41,11 @@ sections:
         Please reach out to collaborate 😃 (wechat: himarsmty)
     design:
       columns: '1'
+  - block: resume-experience
+    content:
+      title: "Experience"
+    design:
+      columns: "1"
   # - block: collection
   #   id: papers
   #   content:

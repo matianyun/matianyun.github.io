@@ -28,7 +28,7 @@ role: PHD
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: USTC & ICT, CAS
-    url: 
+    url: https://www.ustc.edu.cn/
 
 
 # Social network links
@@ -50,7 +50,8 @@ profiles:
 
 interests:
   - Efficient LLM Inference
-  - Computer Architecture
+  - AI Hardware Architectures
+  - In-storage Computing
   - Embodied AI
 
 education:
@@ -188,5 +189,6 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Tianyun Ma holds a Ph.D. in Computer Architecture, specializing in accelerating large-model inference architectures and exploring intelligent computing systems, and embodied intelligence. He earned his bachelor's degree from Tsinghua University's Department of Automation under **Professor Tao Zhang** at 2020, and completed his Ph.D. at the State Key Laboratory of Processors (SKLP) through a joint program between USTC and ICT, CAS, under **Professors Huaping Chen and Qi Guo** at 2025. He has published 8 papers in top-tier venues such as TCAD, MICRO, and ASPLOS, with strong expertise in system architecture design. He is committed to advancing intelligent computing through innovative architecture designs.
+I hold a Ph.D. in Computer Architecture, specializing in large-model inference acceleration, intelligent computing systems, and embodied intelligence. I earned my bachelor’s degree from Tsinghua University’s Department of Automation in 2020 under **Professor Tao Zhang**, and completed my Ph.D. in 2025 at the State Key Laboratory of Processors (SKLP) through a joint program between USTC and ICT, CAS, under **Professors Huaping Chen** and **Qi Guo**.
 
+I have published eight papers in top-tier venues, including **TCAD**, **MICRO**, and **ASPLOS**, and am dedicated to advancing intelligent computing through innovative architecture design.
