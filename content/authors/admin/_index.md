@@ -58,12 +58,21 @@ education:
   - area: PhD Computer Science (Computer Architecture Focus)
     institution: SKLP lab, ICT, CAS & USTC
     icon: ustc
-    date_start: 2020-09-01
-    date_end: 2025-11-30
+    date_start: 2022-09-01
+    date_end: 2025-11-20
     summary: |
       Thesis on Architectures for Accelerating Transformer Inference. 
 
       Supervised by Prof. Huaping Chen and Prof. Qi Guo.
+
+  - area: MS Microelectronics (Successive Postgraduate and Doctoral Program)
+    institution: SKLP lab, ICT, CAS & USTC
+    icon: ustc
+    date_start: 2020-09-01
+    date_end: 2022-05-31
+    summary: |
+      Supervised by Prof. Yunji Chen.
+
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com/thesis.pdf'
