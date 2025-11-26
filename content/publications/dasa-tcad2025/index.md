@@ -47,8 +47,8 @@ hugoblox:
     # arxiv: 1512.04133v1
 
 links:
-  # - type: pdf
-  #   url: https://ieeexplore.ieee.org/abstract/document/11192497
+  - type: pdf
+    url: https://ieeexplore.ieee.org/document/11223635
   # - type: code
   #   url: https://github.com/HugoBlox/hugo-blox-builder
   # - type: dataset
