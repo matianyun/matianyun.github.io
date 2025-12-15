@@ -19,6 +19,9 @@ main:
   - name: Papers
     url: /#papers
     weight: 14
+  - name: Professional Activities
+    url: /#professional_activities
+    weight: 15
   # - name: Talks
   #   url: /#talks
   #   weight: 13

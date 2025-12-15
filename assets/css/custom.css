@@ -1,0 +1,18 @@
+/* 针对专业活动部分的特定覆盖 */
+#professional_activities .prose {
+  max-width: 100% !important;
+}
+
+/* 或者使用更具体的选择器 */
+body #professional_activities .prose,
+body #professional_activities .markdown,
+body #professional_activities .content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* 确保没有其他容器限制 */
+#professional_activities .max-w-prose,
+#professional_activities .max-w-\\[65ch\\] {
+  max-width: 100% !important;
+}

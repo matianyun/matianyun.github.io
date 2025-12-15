@@ -1,0 +1,12 @@
+{{- /* 检测特定的 CSS 类并应用相应的包装 */ -}}
+{{- if or (in .Attributes "class" "wide-content") (in .Attributes "class" "full-width") -}}
+  <div class="wide-content-wrapper">
+    <p{{ with .Attributes }} {{ . }}{{ end }}>
+      {{- .Text | safeHTML -}}
+    </p>
+  </div>
+{{- else -}}
+  <p{{ with .Attributes }} {{ . }}{{ end }}>
+    {{- .Text | safeHTML -}}
+  </p>
+{{- end -}}
