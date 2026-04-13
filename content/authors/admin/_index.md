@@ -23,19 +23,19 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PHD
+role: Postdoc
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: USTC & ICT, CAS
-    url: https://www.ustc.edu.cn/
+  - name: Institute of AI for Industries, Chinese Academy of Sciences (IAII, CAS)
+    url: https://iaii.cas.cn/
 
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:mty21[at]mail[dot]ustc.edu.cn'
+    url: 'mailto:tyma[at]iaii[dot]ac[dot]cn'
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/AlexAIResearch
@@ -198,6 +198,6 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-I hold a Ph.D. in Computer Architecture, specializing in large-model inference acceleration, intelligent computing systems, and embodied intelligence. I earned my bachelor’s degree from Tsinghua University’s Department of Automation in 2020 under **Professor Tao Zhang**, and completed my Ph.D. in 2025 at the State Key Laboratory of Processors (SKLP) through a joint program between USTC and ICT, CAS, under **Professors Huaping Chen** and **Qi Guo**.
+I am currently a Postdoctoral Researcher at the Institute of AI for Industries (IAII), Chinese Academy of Sciences (CAS). I hold a Ph.D. in Computer Architecture, specializing in large-model inference acceleration, intelligent computing systems, and embodied intelligence. I earned my bachelor’s degree from Tsinghua University’s Department of Automation in 2020 under **Professor Tao Zhang**, and completed my Ph.D. in 2025 at the State Key Laboratory of Processors (SKLP) through a joint program between USTC and ICT, CAS, under **Professors Huaping Chen** and **Qi Guo**.
 
 I have published eight papers in top-tier venues, including **TCAD**, **MICRO**, and **ASPLOS**, and am dedicated to advancing intelligent computing through innovative architecture design.
