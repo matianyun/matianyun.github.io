@@ -37,6 +37,49 @@ $max-content-width: {{ site.max_width }};
   }
 }
 
+.honors-awards {
+  margin-bottom: 1.5rem;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: grid;
+    grid-template-columns: 1.1rem 3.5rem minmax(0, 1fr);
+    gap: 0.55rem;
+    align-items: start;
+  }
+
+  .ha-icon {
+    padding-top: 0.1rem;
+    color: #d4a017;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .ha-year {
+    color: var(--global-text-color-light);
+    font-weight: 600;
+  }
+
+  .ha-name {
+    line-height: 1.55;
+  }
+}
+
+@media (max-width: 576px) {
+  .honors-awards li {
+    grid-template-columns: 1.1rem minmax(0, 1fr);
+  }
+
+  .honors-awards .ha-year {
+    display: none;
+  }
+}
+
 @import
   "variables",
   "themes",

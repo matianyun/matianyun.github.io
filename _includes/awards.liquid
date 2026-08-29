@@ -2,9 +2,13 @@
   <ul>
     {% for award in site.data.awards %}
       <li>
+        <span class="ha-icon" aria-hidden="true"><i class="fa-solid fa-trophy"></i></span>
         <span class="ha-year">{{ award.year }}</span>
         <span class="ha-name">
-          {% if award.url %}
+          {% if award.title %}
+            <strong>{{ award.title }}</strong> &amp; <strong>{{ award.secondary }}</strong> in the
+            <strong>{{ award.track }}</strong>, <strong>{{ award.competition }}</strong>, {{ award.venue }}, {{ award.location }}.
+          {% elsif award.url %}
             <a href="{{ award.url }}" target="_blank" rel="noopener noreferrer">{{ award.name }}</a>
           {% else %}
             {{ award.name }}
