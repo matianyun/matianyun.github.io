@@ -1,9 +1,10 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /zh/publications/
 title: Publications
-lang: en
-lang_alt: /zh/publications/
+nav_title: 论文发表
+lang: zh
+lang_alt: /publications/
 nav: true
 nav_order: 2
 ---

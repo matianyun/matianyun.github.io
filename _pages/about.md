@@ -2,6 +2,8 @@
 layout: about
 title: About
 permalink: /
+lang: en
+lang_alt: /zh/
 
 profile:
   align: right

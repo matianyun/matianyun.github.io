@@ -1,6 +1,24 @@
 ---
 layout: default
 ---
+{% assign current_lang = page.lang | default: site.lang | default: 'en' %}
+{% if current_lang == 'zh' %}
+  {% assign publications_link = '/zh/publications/' %}
+  {% assign news_link = '/news/' %}
+  {% assign blog_link = '/blog/' %}
+  {% assign news_title = 'news' %}
+  {% assign latest_posts_title = 'latest posts' %}
+{% else %}
+  {% assign publications_link = '/publications/' %}
+  {% assign news_link = '/news/' %}
+  {% assign blog_link = '/blog/' %}
+  {% assign news_title = 'news' %}
+  {% assign latest_posts_title = 'latest posts' %}
+{% endif %}
+{% assign selected_publications_title = page.selected_publications_title | default: 'Selected Publications' %}
+{% assign awards_title = page.awards_title | default: 'Honors & Awards' %}
+{% assign contact_note = page.contact_note | default: site.contact_note %}
+
 <div class="post about-page">
   <header class="post-header">
     <h1 class="post-title" style="display: flex; align-items: center; gap: 0.5em;">
@@ -46,7 +64,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ news_link | relative_url }}" style="color: inherit">{{ news_title }}</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -54,7 +72,7 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ blog_link | relative_url }}" style="color: inherit">{{ latest_posts_title }}</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -62,7 +80,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+        <a href="{{ publications_link | relative_url }}" style="color: inherit">{{ selected_publications_title }}</a>
       </h2>
       {% include selected_papers.liquid %}
       <script src="{{ '/assets/js/pub-filter.js' | relative_url }}"></script>
@@ -70,7 +88,7 @@ layout: default
 
     <!-- Honors & Awards -->
     {% if site.data.awards %}
-      <h2>Honors &amp; Awards</h2>
+      <h2>{{ awards_title }}</h2>
       {% include awards.liquid %}
     {% endif %}
 
@@ -79,7 +97,7 @@ layout: default
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+        <div class="contact-note">{{ contact_note }}</div>
       </div>
     {% endif %}
 

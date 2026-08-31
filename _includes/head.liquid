@@ -68,6 +68,18 @@
 {% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+{% if page.lang_alt %}
+  {% assign current_lang = page.lang | default: site.lang | default: 'en' %}
+  {% if current_lang == 'zh' %}
+    {% assign current_hreflang = 'zh-CN' %}
+    {% assign alternate_hreflang = 'en' %}
+  {% else %}
+    {% assign current_hreflang = 'en' %}
+    {% assign alternate_hreflang = 'zh-CN' %}
+  {% endif %}
+  <link rel="alternate" hreflang="{{ current_hreflang }}" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="{{ alternate_hreflang }}" href="{{ page.lang_alt | absolute_url }}">
+{% endif %}
 
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
