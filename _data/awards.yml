@@ -1,5 +1,10 @@
 - year: 2026
-  name: '2nd Prize, Track B (Attention Acceleration), FPGA Design Competition.'
+  title: 2nd Prize
+  track: Track B (Attention Acceleration)
+  competition: FPGA Design Competition
+  venue: International Conference on Field Programmable Technology (FPT'26)
+  location: Honolulu, Hawaii, USA
+  date: December 7-10, 2026
   url: https://fpt2026.uark.edu/program/
 
 - year: 2026

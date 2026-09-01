@@ -6,8 +6,15 @@
         <span class="ha-year">{{ award.year }}</span>
         <span class="ha-name">
           {% if award.title %}
-            <strong>{{ award.title }}</strong> &amp; <strong>{{ award.secondary }}</strong> in the
-            <strong>{{ award.track }}</strong>, <strong>{{ award.competition }}</strong>, {{ award.venue }}, {{ award.location }}.
+            {% if award.url %}
+              <a href="{{ award.url }}" target="_blank" rel="noopener noreferrer"><strong>{{ award.title }}</strong></a>
+            {% else %}
+              <strong>{{ award.title }}</strong>
+            {% endif %}
+            {% if award.secondary %}
+              &amp; <strong>{{ award.secondary }}</strong>
+            {% endif %}
+            in <strong>{{ award.track }}</strong>, <strong>{{ award.competition }}</strong>, {{ award.venue }}, {{ award.location }}{% if award.date %}, {{ award.date }}{% endif %}.
           {% elsif award.url %}
             <a href="{{ award.url }}" target="_blank" rel="noopener noreferrer">{{ award.name }}</a>
           {% else %}
