@@ -80,6 +80,26 @@ $max-content-width: {{ site.max_width }};
   }
 }
 
+.map-container {
+  width: calc(100% - 2rem);
+  max-width: 280px;
+  margin: 1rem auto 4.5rem;
+  text-align: center;
+
+  iframe,
+  img,
+  canvas,
+  svg {
+    max-width: 100% !important;
+  }
+
+  img,
+  canvas,
+  svg {
+    height: auto !important;
+  }
+}
+
 @import
   "variables",
   "themes",
